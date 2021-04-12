@@ -29,7 +29,12 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navigations"><span style="color:#fff; font-size: 18px; font-weight: bold;">°•𝕽𝖊𝖇𝖔𝖔𝖙 cc gen•°</span></nav>
+        <nav class="navigations">
+<?php 
+    $genName  = $_ENV['NAME'];
+    echo "<span style="color:#fff; font-size: 18px; font-weight: bold;">{$NAME}</span>";
+?>
+</nav>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
