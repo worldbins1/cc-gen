@@ -9,11 +9,6 @@
     "website": "https://reboot13.hashnode.dev",
     "repository": "https://github.com/reboot13-git/cc-gen",
     "success_url": "/",
-    "env": {
-        "NAME": {
-            "description": "Your Generator Name..."
-        }
-    },
     "formation": {
         "web": {
             "quantity": 1,
